@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Aspirin",
+    "price": "$5.00",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 2,
+    "name": "Bandages",
+    "price": "$2.00",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 3,
+    "name": "Cough Syrup",
+    "price": "$7.00",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 4,
+    "name": "Thermometer",
+    "price": "$15.00",
+    "image": "https://via.placeholder.com/150"
+  }
+]

@@ -1,0 +1,134 @@
+/* Add animation keyframes */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.contact-container {
+  width: 60%;
+  margin: 30px auto;
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h2 {
+  text-align: center;
+  color: #1f3f94;
+  animation: fadeIn 1s ease-in;
+}
+
+.contact-container p {
+  text-align: center;
+  font-size: 1.1em;
+  color: #555;
+  animation: fadeIn 1.2s ease-in;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  animation: fadeIn 1.4s ease-in;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 97%;
+  padding: 10px;
+  font-size: 1em;
+  border: 0px solid #ccc;
+  border-radius: 5px;
+  background-color: aliceblue;
+  transition: all 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  transform: scale(1.01);
+  box-shadow: 0 0 8px rgba(31, 63, 148, 0.2);
+}
+
+textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+.cont {
+  background-color: black;
+  color: white;
+  font-size: 1.2em;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+  animation: fadeIn 1.6s ease-in;
+}
+
+.cont:hover {
+  background-color: #9db2bf;
+  transform: translateY(-2px);
+}
+
+#response-message {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #4caf50;
+  animation: fadeIn 0.5s ease-in;
+}
+
+/* Mobile Responsive Design */
+@media screen and (max-width: 768px) {
+  .contact-container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+  }
+
+  input,
+  textarea {
+    width: 94%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact-container {
+    width: 95%;
+    margin: 15px auto;
+    padding: 10px;
+  }
+
+  input,
+  textarea {
+    width: 92%;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+}

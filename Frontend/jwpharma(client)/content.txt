@@ -1,0 +1,940 @@
+[
+  {
+    "id": 1,
+    "name": "Kali Carbonicum",
+    "price": 5.25,
+    "description": "Description for Kali Carbonicum.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Respiratory Health",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 2,
+    "name": "Antimonium Tart",
+    "price": 5.5,
+    "description": "Description for Antimonium Tart.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Respiratory Health",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 3,
+    "name": "Lobelia",
+    "price": 5.75,
+    "description": "Description for Lobelia.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Respiratory Health",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 4,
+    "name": "Arsenicum Album",
+    "price": 6.0,
+    "description": "Description for Arsenicum Album.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Respiratory Health",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 5,
+    "name": "Blatta Orientalis",
+    "price": 6.25,
+    "description": "Description for Blatta Orientalis.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Respiratory Health",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 6,
+    "name": "Bryonia Alba",
+    "price": 6.5,
+    "description": "Description for Bryonia Alba.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Respiratory Health",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 7,
+    "name": "Ipecacuanha",
+    "price": 6.75,
+    "description": "Description for Ipecacuanha.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Respiratory Health",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 8,
+    "name": "Nux Vomica",
+    "price": 7.0,
+    "description": "Description for Nux Vomica.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Digestive Health",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 9,
+    "name": "Pulsatilla",
+    "price": 7.25,
+    "description": "Description for Pulsatilla.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Digestive Health",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 10,
+    "name": "Carbo Vegetabilis",
+    "price": 7.5,
+    "description": "Description for Carbo Vegetabilis.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Digestive Health",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 11,
+    "name": "Arsenicum Album",
+    "price": 7.75,
+    "description": "Description for Arsenicum Album.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Digestive Health",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 12,
+    "name": "Lycopodium",
+    "price": 8.0,
+    "description": "Description for Lycopodium.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Digestive Health",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 13,
+    "name": "Phosphorus",
+    "price": 8.25,
+    "description": "Description for Phosphorus.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Digestive Health",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 14,
+    "name": "Sulphur",
+    "price": 8.5,
+    "description": "Description for Sulphur.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Skin Health",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 15,
+    "name": "Calendula",
+    "price": 8.75,
+    "description": "Description for Calendula.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Skin Health",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 16,
+    "name": "Silicea",
+    "price": 9.0,
+    "description": "Description for Silicea.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Skin Health",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 17,
+    "name": "Apis Mellifica",
+    "price": 9.25,
+    "description": "Description for Apis Mellifica.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Skin Health",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 18,
+    "name": "Graphites",
+    "price": 9.5,
+    "description": "Description for Graphites.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Skin Health",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 19,
+    "name": "Berberis Aquifolium",
+    "price": 9.75,
+    "description": "Description for Berberis Aquifolium.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Skin Health",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 20,
+    "name": "Aurium Metallicum",
+    "price": 10.0,
+    "description": "Description for Aurium Metallicum.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Emotional and Psychological Conditions",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 21,
+    "name": "Natrum Sulphuricum",
+    "price": 10.25,
+    "description": "Description for Natrum Sulphuricum.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Emotional and Psychological Conditions",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 22,
+    "name": "Lycopodium",
+    "price": 10.5,
+    "description": "Description for Lycopodium.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Emotional and Psychological Conditions",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 23,
+    "name": "Ignatia Amara",
+    "price": 10.75,
+    "description": "Description for Ignatia Amara.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Emotional and Psychological Conditions",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 24,
+    "name": "Kali Phosphoricum",
+    "price": 11.0,
+    "description": "Description for Kali Phosphoricum.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Emotional and Psychological Conditions",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 25,
+    "name": "Coffea Cruda",
+    "price": 11.25,
+    "description": "Description for Coffea Cruda.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Emotional and Psychological Conditions",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 26,
+    "name": "Rhus Toxicodendron",
+    "price": 11.5,
+    "description": "Description for Rhus Toxicodendron.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Joint and Muscular Health",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 27,
+    "name": "Ruta Graveolens",
+    "price": 11.75,
+    "description": "Description for Ruta Graveolens.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Joint and Muscular Health",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 28,
+    "name": "Bryonia Alba",
+    "price": 12.0,
+    "description": "Description for Bryonia Alba.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Joint and Muscular Health",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 29,
+    "name": "Arnica Montana",
+    "price": 12.25,
+    "description": "Description for Arnica Montana.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Joint and Muscular Health",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 30,
+    "name": "Caulophyllum",
+    "price": 12.5,
+    "description": "Description for Caulophyllum.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Women's Health",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 31,
+    "name": "Pulsatilla",
+    "price": 12.75,
+    "description": "Description for Pulsatilla.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Women's Health",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 32,
+    "name": "Sepia",
+    "price": 13.0,
+    "description": "Description for Sepia.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Women's Health",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 33,
+    "name": "Lachesis",
+    "price": 13.25,
+    "description": "Description for Lachesis.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Women's Health",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 34,
+    "name": "Agnus Castus",
+    "price": 13.5,
+    "description": "Description for Agnus Castus.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Men's Health",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 35,
+    "name": "Staphysagria",
+    "price": 13.75,
+    "description": "Description for Staphysagria.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Men's Health",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 36,
+    "name": "Tribulus Terrestris",
+    "price": 14.0,
+    "description": "Description for Tribulus Terrestris.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Men's Health",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 37,
+    "name": "Chamomilla",
+    "price": 14.25,
+    "description": "Description for Chamomilla.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Pediatric Care",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 38,
+    "name": "Belladonna",
+    "price": 14.5,
+    "description": "Description for Belladonna.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Pediatric Care",
+    "image": "https://via.placeholder.com/400x300"
+  },
+  {
+    "id": 39,
+    "name": "Calcarea Phosphorica",
+    "price": 14.75,
+    "description": "Description for Calcarea Phosphorica.",
+    "manufacturer": "Homeopathy Inc.",
+    "category": "Pediatric Care",
+    "image": "https://via.placeholder.com/400x300"
+  }
+]
+
+
+{
+        "id": 40,
+        "name": "Calcarea Carbonica",
+        "price": 15.0,
+        "description": "Description for Calcarea Carbonica.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Geriatric Care",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 41,
+        "name": "Natrum Muriaticum",
+        "price": 15.25,
+        "description": "Description for Natrum Muriaticum.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Geriatric Care",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 42,
+        "name": "Echinacea",
+        "price": 15.5,
+        "description": "Description for Echinacea.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Immune System Support",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 43,
+        "name": "Thuja Occidentalis",
+        "price": 15.75,
+        "description": "Description for Thuja Occidentalis.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Immune System Support",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 44,
+        "name": "Asparagus Racemosus",
+        "price": 16.0,
+        "description": "Description for Asparagus Racemosus.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Immune System Support",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 45,
+        "name": "Gelsemium",
+        "price": 16.25,
+        "description": "Description for Gelsemium.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Anxiety and Stress",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 46,
+        "name": "Kali Phosphoricum",
+        "price": 16.5,
+        "description": "Description for Kali Phosphoricum.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Anxiety and Stress",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 47,
+        "name": "Aconitum Napellus",
+        "price": 16.75,
+        "description": "Description for Aconitum Napellus.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Anxiety and Stress",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 48,
+        "name": "Bryonia Alba",
+        "price": 17.0,
+        "description": "Description for Bryonia Alba.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Cough and Cold",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 49,
+        "name": "Hepar Sulphuris",
+        "price": 17.25,
+        "description": "Description for Hepar Sulphuris.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Cough and Cold",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 50,
+        "name": "Ipecacuanha",
+        "price": 17.5,
+        "description": "Description for Ipecacuanha.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Cough and Cold",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 51,
+        "name": "Arnica Montana",
+        "price": 17.75,
+        "description": "Description for Arnica Montana.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Pain Management",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 52,
+        "name": "Hypericum Perforatum",
+        "price": 18.0,
+        "description": "Description for Hypericum Perforatum.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Pain Management",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 53,
+        "name": "Ruta Graveolens",
+        "price": 18.25,
+        "description": "Description for Ruta Graveolens.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Pain Management",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 54,
+        "name": "Allium Cepa",
+        "price": 18.5,
+        "description": "Description for Allium Cepa.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Allergy Relief",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 55,
+        "name": "Euphrasia",
+        "price": 18.75,
+        "description": "Description for Euphrasia.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Allergy Relief",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 56,
+        "name": "Natrum Muriaticum",
+        "price": 19.0,
+        "description": "Description for Natrum Muriaticum.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Allergy Relief",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 57,
+        "name": "Belladonna",
+        "price": 19.25,
+        "description": "Description for Belladonna.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Headaches and Migraines",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 58,
+        "name": "Sanguinaria",
+        "price": 19.5,
+        "description": "Description for Sanguinaria.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Headaches and Migraines",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 59,
+        "name": "Spigelia",
+        "price": 19.75,
+        "description": "Description for Spigelia.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Headaches and Migraines",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 60,
+        "name": "Coffea Cruda",
+        "price": 20.0,
+        "description": "Description for Coffea Cruda.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Sleep Disorders",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 61,
+        "name": "Chamomilla",
+        "price": 20.25,
+        "description": "Description for Chamomilla.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Sleep Disorders",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 62,
+        "name": "Passiflora",
+        "price": 20.5,
+        "description": "Description for Passiflora.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Sleep Disorders",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 63,
+        "name": "Belladonna",
+        "price": 20.75,
+        "description": "Description for Belladonna.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Fever and Infections",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 64,
+        "name": "Aconitum Napellus",
+        "price": 21.0,
+        "description": "Description for Aconitum Napellus.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Fever and Infections",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 65,
+        "name": "Pyrogenium",
+        "price": 21.25,
+        "description": "Description for Pyrogenium.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Fever and Infections",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 66,
+        "name": "Natrum Mur",
+        "price": 21.5,
+        "description": "Description for Natrum Mur.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Weight Management",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 67,
+        "name": "Fucus Vesiculosus",
+        "price": 21.75,
+        "description": "Description for Fucus Vesiculosus.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Weight Management",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 68,
+        "name": "Ignatia Amara",
+        "price": 22.0,
+        "description": "Description for Ignatia Amara.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Weight Management",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 69,
+        "name": "Cantharis",
+        "price": 22.25,
+        "description": "Description for Cantharis.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Urinary Health",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 70,
+        "name": "Berberis Vulgaris",
+        "price": 22.5,
+        "description": "Description for Berberis Vulgaris.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Urinary Health",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 71,
+        "name": "Sarsaparilla",
+        "price": 22.75,
+        "description": "Description for Sarsaparilla.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Urinary Health",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 72,
+        "name": "Sepia",
+        "price": 23.0,
+        "description": "Description for Sepia.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Hormonal Balance",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 73,
+        "name": "Pulsatilla",
+        "price": 23.25,
+        "description": "Description for Pulsatilla.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Hormonal Balance",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 74,
+        "name": "Lachesis",
+        "price": 23.5,
+        "description": "Description for Lachesis.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Hormonal Balance",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 75,
+        "name": "Lycopodium",
+        "price": 23.75,
+        "description": "Description for Lycopodium.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Detoxification",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 76,
+        "name": "Chelidonium",
+        "price": 24.0,
+        "description": "Description for Chelidonium.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Detoxification",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 77,
+        "name": "Nux Vomica",
+        "price": 24.25,
+        "description": "Description for Nux Vomica.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Detoxification",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 78,
+        "name": "Crataegus",
+        "price": 24.5,
+        "description": "Description for Crataegus.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Blood Pressure Support",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 79,
+        "name": "Cactus Grandiflorus",
+        "price": 24.75,
+        "description": "Description for Cactus Grandiflorus.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Blood Pressure Support",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 80,
+        "name": "Lachesis",
+        "price": 25.0,
+        "description": "Description for Lachesis.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Blood Pressure Support",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 81,
+        "name": "Nux Vomica",
+        "price": 25.25,
+        "description": "Description for Nux Vomica.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Cholesterol Management",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 82,
+        "name": "Garlic",
+        "price": 25.5,
+        "description": "Description for Garlic.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Cholesterol Management",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 83,
+        "name": "Berberis Vulgaris",
+        "price": 25.75,
+        "description": "Description for Berberis Vulgaris.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Cholesterol Management",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 84,
+        "name": "Syzygium Jambolanum",
+        "price": 26.0,
+        "description": "Description for Syzygium Jambolanum.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Diabetes Support",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 85,
+        "name": "Phosphorus",
+        "price": 26.25,
+        "description": "Description for Phosphorus.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Diabetes Support",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 86,
+        "name": "Insulinum",
+        "price": 26.5,
+        "description": "Description for Insulinum.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Diabetes Support",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 87,
+        "name": "Carduus Marianus",
+        "price": 26.75,
+        "description": "Description for Carduus Marianus.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Liver Health",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 88,
+        "name": "Chelidonium",
+        "price": 27.0,
+        "description": "Description for Chelidonium.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Liver Health",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 89,
+        "name": "Taraxacum",
+        "price": 27.25,
+        "description": "Description for Taraxacum.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Liver Health",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 90,
+        "name": "Bacopa Monnieri",
+        "price": 27.5,
+        "description": "Description for Bacopa Monnieri.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Mental Clarity and Focus",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 91,
+        "name": "Anacardium Orientale",
+        "price": 27.75,
+        "description": "Description for Anacardium Orientale.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Mental Clarity and Focus",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 92,
+        "name": "Ginkgo Biloba",
+        "price": 28.0,
+        "description": "Description for Ginkgo Biloba.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Mental Clarity and Focus",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 93,
+        "name": "Arnica Montana",
+        "price": 28.25,
+        "description": "Description for Arnica Montana.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Hair and Scalp Care",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 94,
+        "name": "Thuja Occidentalis",
+        "price": 28.5,
+        "description": "Description for Thuja Occidentalis.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Hair and Scalp Care",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 95,
+        "name": "Natrum Muriaticum",
+        "price": 28.75,
+        "description": "Description for Natrum Muriaticum.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Hair and Scalp Care",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 96,
+        "name": "Calcarea Phosphorica",
+        "price": 29.0,
+        "description": "Description for Calcarea Phosphorica.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Oral Health",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 97,
+        "name": "Kreosotum",
+        "price": 29.25,
+        "description": "Description for Kreosotum.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Oral Health",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 98,
+        "name": "Mercurius Solubilis",
+        "price": 29.5,
+        "description": "Description for Mercurius Solubilis.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Oral Health",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 99,
+        "name": "Euphrasia",
+        "price": 29.75,
+        "description": "Description for Euphrasia.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Eye Health",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 100,
+        "name": "Ruta Graveolens",
+        "price": 30.0,
+        "description": "Description for Ruta Graveolens.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Eye Health",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 101,
+        "name": "Belladonna",
+        "price": 30.25,
+        "description": "Description for Belladonna.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Eye Health",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 102,
+        "name": "Calcarea Phosphorica",
+        "price": 30.5,
+        "description": "Description for Calcarea Phosphorica.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Bone and Joint Support",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 103,
+        "name": "Symphytum",
+        "price": 30.75,
+        "description": "Description for Symphytum.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Bone and Joint Support",
+        "image": "https://via.placeholder.com/400x300"
+    },
+    {
+        "id": 104,
+        "name": "Rhus Toxicodendron",
+        "price": 31.0,
+        "description": "Description for Rhus Toxicodendron.",
+        "manufacturer": "Homeopathy Inc.",
+        "category": "Bone and Joint Support",
+        "image": "https://via.placeholder.com/400x300"
+    }

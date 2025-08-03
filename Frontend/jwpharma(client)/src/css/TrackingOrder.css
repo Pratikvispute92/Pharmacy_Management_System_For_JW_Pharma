@@ -1,0 +1,522 @@
+/* Base Styles */
+.tracking-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  animation: fadeIn 0.5s ease-out;
+}
+
+/* Loading Animation */
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+.loading-pulse {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #3498db;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+.loading-text {
+  margin-top: 1rem;
+  color: #2c3e50;
+  animation: fadeInOut 1.5s ease-in-out infinite;
+}
+
+/* Progress Bar */
+.progress-container {
+  margin: 2rem 0;
+}
+
+.progress-bar {
+  height: 6px;
+  background: #eee;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #3498db, #2ecc71);
+  width: 0;
+  transition: width 1.5s ease-in-out;
+  position: relative;
+}
+
+.progress-fill::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 15px;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3));
+  animation: shimmer 1.5s infinite;
+}
+
+.progress-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  color: #7f8c8d;
+}
+
+/* Real-time Updates */
+.real-time-updates {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.pulse-dot {
+  width: 8px;
+  height: 8px;
+  background: #2ecc71;
+  border-radius: 50%;
+  position: relative;
+}
+
+.pulse-dot::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  border-radius: inherit;
+  animation: pulse 2s infinite;
+}
+
+/* Location Indicator */
+.location-indicator {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  margin: 1rem;
+}
+
+.current-location-dot {
+  width: 100%;
+  height: 100%;
+  background: #e74c3c;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.ripple {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #e74c3c;
+  border-radius: 50%;
+  opacity: 0.5;
+  animation: ripple 2s infinite;
+}
+
+/* Timeline Enhancements */
+.timeline-item {
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: slideInFade 0.5s ease-out forwards;
+}
+
+.timeline-dot .inner-dot {
+  width: 5px;
+  height: 5px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: pulse 2s infinite;
+}
+
+/* Animations */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes slideInFade {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInOut {
+  0%,
+  100% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* Add these styles to your existing CSS */
+
+.map-section {
+  margin: 2rem 0;
+  border-radius: 12px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.map-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  height: 0;
+}
+
+.google-map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.location-details {
+  padding: 1rem;
+}
+
+.location-card {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.coordinates {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+  font-family: monospace;
+  color: #666;
+}
+
+/* Timeline Styles */
+.tracking-history {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+}
+
+.tracking-history h4 {
+  color: #2c3e50;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.tracking-history h4::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 50px;
+  height: 3px;
+  background: #3498db;
+  border-radius: 2px;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, #3498db 0%, #2ecc71 100%);
+  border-radius: 3px;
+}
+
+.timeline-item {
+  position: relative;
+  padding: 1rem 0;
+  transition: all 0.3s ease;
+}
+
+.timeline-item:hover {
+  transform: translateX(10px);
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -2rem;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 3px solid #3498db;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  transition: all 0.3s ease;
+}
+
+.timeline-item:hover .timeline-dot {
+  transform: scale(1.2);
+  box-shadow: 0 0 10px rgba(52, 152, 219, 0.4);
+}
+
+.inner-dot {
+  width: 6px;
+  height: 6px;
+  background: #3498db;
+  border-radius: 50%;
+  animation: pulse 2s infinite;
+}
+
+.timeline-content {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.timeline-item:hover .timeline-content {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+
+.timeline-date {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.timeline-location {
+  color: #3498db;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.timeline-status {
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  background: #e8f4fd;
+  color: #3498db;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+/* Enhanced Animation for Timeline Items */
+@keyframes slideInWithFade {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.timeline-item {
+  animation: slideInWithFade 0.5s ease-out forwards;
+  opacity: 0;
+}
+
+.timeline-item:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.timeline-item:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.timeline-item:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+/* Base Styles - keeping your original styles and adding responsive adjustments */
+.tracking-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1rem; /* Reduced side padding for mobile */
+}
+
+/* Mobile-first adjustments */
+@media screen and (max-width: 768px) {
+  .tracking-container {
+    padding: 1rem;
+  }
+
+  /* Progress Bar Adjustments */
+  .progress-labels {
+    font-size: 0.8rem;
+  }
+
+  /* Map Section Adjustments */
+  .map-wrapper {
+    padding-bottom: 75%; /* Taller aspect ratio for mobile */
+  }
+
+  .location-details {
+    padding: 0.75rem;
+  }
+
+  .coordinates {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  /* Timeline Adjustments */
+  .tracking-history {
+    padding: 1rem;
+  }
+
+  .timeline {
+    padding-left: 1.5rem;
+  }
+
+  .timeline-dot {
+    left: -1.5rem;
+    width: 16px;
+    height: 16px;
+  }
+
+  .timeline-content {
+    padding: 0.75rem;
+  }
+
+  .timeline-date {
+    font-size: 0.9rem;
+  }
+
+  .timeline-location {
+    font-size: 0.85rem;
+  }
+
+  .timeline-status {
+    font-size: 0.75rem;
+  }
+}
+
+/* Small Mobile Devices */
+@media screen and (max-width: 480px) {
+  .tracking-container {
+    padding: 0.75rem;
+  }
+
+  .progress-container {
+    margin: 1rem 0;
+  }
+
+  .progress-bar {
+    height: 4px;
+  }
+
+  .real-time-updates {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .timeline-item:hover {
+    transform: none; /* Disable hover effects on mobile */
+  }
+
+  .timeline-content {
+    padding: 0.5rem;
+  }
+}
+
+/* Tablet Adjustments */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .tracking-container {
+    padding: 1.5rem;
+  }
+
+  .map-wrapper {
+    padding-bottom: 65%;
+  }
+}
+
+/* Print Media Query */
+@media print {
+  .tracking-container {
+    padding: 0;
+    max-width: 100%;
+  }
+
+  .loading-container,
+  .progress-container,
+  .real-time-updates {
+    display: none;
+  }
+
+  .timeline::before {
+    display: none;
+  }
+
+  .timeline-item {
+    page-break-inside: avoid;
+  }
+}
+
+/* High DPI Screens */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .timeline::before {
+    width: 1px;
+  }
+
+  .timeline-dot {
+    border-width: 2px;
+  }
+}

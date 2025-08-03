@@ -1,0 +1,107 @@
+.feed {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.feed:hover {
+  background-color: #9db2bf;
+}
+
+.feedback-form-container {
+  background-color: transparent;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  width: 60%;
+  text-align: left;
+  margin: 30px auto;
+}
+
+.feedback-form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.feedback-form input,
+.feedback-form select,
+.feedback-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: aliceblue;
+}
+
+.feedback-form input[type="text"],
+.feedback-form input[type="email"],
+.feedback-form select {
+  height: 40px;
+}
+
+.feedback-form textarea {
+  resize: vertical;
+  background-color: aliceblue;
+}
+
+.feedback-form button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.feedback-form button:hover {
+  background-color: #9db2bf;
+}
+
+/* Mobile Responsive Design */
+@media screen and (max-width: 768px) {
+  .feedback-form-container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+  }
+
+  .feedback-form input,
+  .feedback-form select,
+  .feedback-form textarea {
+    width: 94%;
+  }
+
+  .feedback-form h1 {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .feedback-form-container {
+    width: 95%;
+    margin: 15px auto;
+    padding: 10px;
+  }
+
+  .feedback-form input,
+  .feedback-form select,
+  .feedback-form textarea {
+    width: 92%;
+  }
+
+  .feedback-form h1 {
+    font-size: 1.2em;
+  }
+}
